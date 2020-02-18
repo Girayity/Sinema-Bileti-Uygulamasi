@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="deu.csc.lecture.homework.MainActivity">
+
+    <LinearLayout
+        android:layout_width="193dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/film1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/film1"
+            android:textAllCaps="true"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/resim1"
+            android:layout_width="82dp"
+            android:layout_height="115dp"
+            android:contentDescription="@string/film1"
+            android:src="@drawable/iyioyun" />
+
+        <Button
+            android:id="@+id/bilet1"
+            android:layout_width="125dp"
+            android:layout_height="38dp"
+            android:gravity="bottom|center"
+            android:onClick="biletAl"
+            android:text="@string/biletal" />
+
+        <TextView
+            android:id="@+id/film2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/film2"
+            android:textAllCaps="true"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/resim2"
+            android:layout_width="82dp"
+            android:layout_height="115dp"
+            android:contentDescription="@string/film2"
+            android:src="@drawable/findikkiran" />
+
+        <Button
+            android:id="@+id/bilet2"
+            android:layout_width="125dp"
+            android:layout_height="38dp"
+            android:gravity="bottom|center"
+            android:onClick="biletAl"
+            android:text="@string/biletal" />
+
+        <TextView
+            android:id="@+id/film3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/film3"
+            android:textAllCaps="true"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/resim3"
+            android:layout_width="82dp"
+            android:layout_height="115dp"
+            android:contentDescription="@string/film3"
+            android:src="@drawable/bohemianrhapsody" />
+
+        <Button
+            android:id="@+id/bilet3"
+            android:layout_width="125dp"
+            android:layout_height="38dp"
+            android:gravity="bottom|center"
+            android:onClick="biletAl"
+            android:text="@string/biletal" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/film4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/film4"
+            android:textAllCaps="true"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/resim4"
+            android:layout_width="82dp"
+            android:layout_height="115dp"
+            android:contentDescription="@string/film4"
+            android:src="@drawable/muslum" />
+
+        <Button
+            android:id="@+id/bilet4"
+            android:layout_width="125dp"
+            android:layout_height="38dp"
+            android:gravity="bottom|center"
+            android:onClick="biletAl"
+            android:text="@string/biletal" />
+
+        <TextView
+            android:id="@+id/film5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/film5"
+            android:textAllCaps="true"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/resim5"
+            android:layout_width="82dp"
+            android:layout_height="115dp"
+            android:contentDescription="@string/film5"
+            android:src="@drawable/napolininsirri" />
+
+        <Button
+            android:id="@+id/bilet5"
+            android:layout_width="125dp"
+            android:layout_height="38dp"
+            android:gravity="bottom|center"
+            android:onClick="biletAl"
+            android:text="@string/biletal" />
+
+        <TextView
+            android:id="@+id/film6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/film6"
+            android:textAllCaps="true"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/resim6"
+            android:layout_width="82dp"
+            android:layout_height="115dp"
+            android:contentDescription="@string/film6"
+            android:src="@drawable/venom" />
+
+        <Button
+            android:id="@+id/bilet6"
+            android:layout_width="125dp"
+            android:layout_height="38dp"
+            android:gravity="bottom|center"
+            android:onClick="biletAl"
+            android:text="@string/biletal" />
+
+    </LinearLayout>
+</LinearLayout>

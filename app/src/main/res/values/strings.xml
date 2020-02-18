@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Homework</string>
+    <string name="film1">İyi Oyun</string>
+    <string name="film2">Fındıkkıran</string>
+    <string name="film3">Bohemian Rhapsody</string>
+    <string name="film4">Müslüm</string>
+    <string name="film5">Napoli\'nin Sırrı</string>
+    <string name="film6">Venom</string>
+    <string name="biletal">Bilet Al</string>
+    <string name="seanslar">Seanslar</string>
+    <string name="seans1">12:00</string>
+    <string name="seans2">15:00</string>
+    <string name="seans3">18:00</string>
+    <string name="seans4">21:00</string>
+    <string name="seans5">00:00</string>
+</resources>
